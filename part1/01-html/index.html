@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>دورة HTML</title>
+        <style>
+            table,td,th{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body dir="rtl">
+        <h1>دورة HTML</h1> <!--title-->
+        <img src="html.png" width="150" height="150" alt="html logo" >
+        <h2>وصف الدورة</h2> <!--sub title-->
+        <p> <!--descriptions-->
+            <b>HTML</b> هي  طريقة لكتابة وهيكلة صفحات الويب، ولاتعتبر <strong>HTML</strong> لغة برمجية بالمعنى الفعلي بل هي لغة وصفية 
+            أي أنها تستخدم لوصف الصفحة وترتيب وتوزيع محتواها من نصوص وروابط وصور ومقاطع فيديو وما إلى ذلك،
+            وهي المكون الرئيسي لأي موقع ويب. تستخدم HTML مايسمى بالوسوم او <em>tags</em> وهي عبارة عن رموز لكل منها مهمة خاصة يقوم بها،
+        </p>
+        <p>
+            <b>مواعيد المحاضرات يوميًا:</b><br>
+            من الساعة
+             8:00<sub>am</sub>
+            وحتى الساعة 
+            11:00<sub>am</sub>
+        </p>
+        <p>
+            <b>المستويات لهذه الدورة:</b><br>
+            1<sup>st</sup> level: أساسيات HTML :<br>
+            2<sup>nd</sup> level: مفاهيم متقدمة في HTML
+
+        </p><hr>
+        <h2>أهداف هذه الدورة</h2> <!--sub title-->
+        <ol type="i">
+            <li>التعرف على مفهوم HTML</li>
+            <li>التعرف على كل tag والغرض منه</li>
+            <li>طرق إضافة النصوص، الفيديوهات، وغيرها من المحتويات المعتادة في صفحة الويب</li>
+        </ol>
+
+        <h2>متطلبات هذه الدورة</h2> <!--sub title-->        
+        <ul type="circle">
+            <li>متصفح (سفاري، قوقل كروم)</li>
+            <li>محرر نصوص</li>
+        </ul>
+        <P>للمرجع قم بالضغط 
+            <a href="https://dev.w3.org/html5/spec-LC/">هنا</a>
+        </P>
+        <video height="500" width="700" controls>
+            <source src="vid.mp4" type="video/mp4">
+            عذرًا، لا يمكن عرض هذا الفيديو
+
+        </video>
+        <table>
+            <caption>جدول أماكن المحاضرات</caption>
+            <tr>
+                <th>اليوم</th>
+                <th>المكان</th>
+            </tr>
+            <tr>
+                <td>الأحد، والإثنين</td>
+                <td>Class A</td>
+            </tr>
+            <tr>
+                <td>الثلاثاء، والأربعاء</td>
+                <td>Class B</td>
+            </tr>
+            <tr>
+                <td colspan="2">الخميس عن بعد</td>
+            </tr>
+  
+        </table>
+        <hr>
+        <h2>نموذج الإنضمام للدورة</h2>
+        <form>
+            <label for="name">اسم المستخدم</label>
+            <input type ="text" id="name">
+            <p>الجنس</p>
+            <label for="Male">ذكر</label>
+            <input type ="radio" id="Male" name="gender">
+            <label for="Female">أنثى</label>
+            <input type ="radio" id="Female" name="gender">
+            <p>من أين سمعت عن HTML</p>
+            <label for="friend">صديق</label>
+            <input type ="checkbox" id="friend" name="friend">
+            <label for="books">كتب</label>
+            <input type ="checkbox" id="books" name="books">
+            <label for="social media">مواقع التواصل الإجتماعي</label>
+            <input type ="checkbox" id="social media" name="social media"><br><br>
+            <label for="city">اختر مدينتك:</label>
+            <select id="city" name="city">
+                <option value="Riyadh">الرياض</option>
+                <option vlaue="Jedda">جدة</option>
+                <option vlaue="Dammam">الدمام</option>
+            </select><br><br>
+            <input type ="submit" value="انضمام">
+        </form>
+    </body>
+</html>
