@@ -1,0 +1,71 @@
+body {
+  background-image: url('https://www.pixel4k.com/wp-content/uploads/2019/04/peaceful-blur-background-4k_1555207903.jpg');
+  background-attachment: scroll;
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: req;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  background-color: rgb(76, 170, 185);
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+.home {
+  background-color: rgb(43, 62, 132);
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 29px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(130, 118, 244);
+}
+
+.box {
+  position: relative;
+  height: 707px;
+}
+.box-img {
+  position: absolute;
+  top: 72px;
+  right: 595px;
+  width: 403px;
+  height: 303px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 20px;
+}
+img {
+  border-radius: 20px;
+}
+h1 {
+  position: absolute;
+  top: 475px;
+  right: 609px;
+  font-size: 60px;
+  color: #fff;
+}
+button {
+  position: absolute;
+  top: 615px;
+  right: 720px;
+  padding: 21px 47px;
+  background-color: rgb(76, 170, 185);
+  color: #fff;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: rgb(43, 62, 132);
+}
